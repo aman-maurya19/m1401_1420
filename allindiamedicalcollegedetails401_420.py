@@ -15,26 +15,13 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/government-medical-college-mumbai-maharashtra-other-231794",
-  "https://www.shiksha.com/college/vlcc-institute-of-beauty-and-nutrition-telangana-sanjeeva-reddy-nagar-hyderabad-29402",
-  "https://www.shiksha.com/college/government-medical-college-keonjhar-210111",
-  "https://www.shiksha.com/university/kuvempu-university-shimoga-1610",
-  "https://www.shiksha.com/college/ciem-calcutta-institute-of-engineering-management-tollygunge-kolkata-28681",
-  "https://www.shiksha.com/college/mallige-college-of-pharmacy-karnataka-other-67693",
-  "https://www.shiksha.com/college/rajesh-bhaiyya-tope-college-of-b-pharmacy-aurangabad-88453",
-  "https://www.shiksha.com/college/shree-gurudatta-shikshan-sanstha-s-pharmacy-college-nashik-88833",
-  "https://www.shiksha.com/college/oyster-institute-of-pharmacy-aurangabad-88415",
-  "https://www.shiksha.com/college/sri-indu-institute-of-pharmacy-ibrahimpatnam-hyderabad-70245",
-  "https://www.shiksha.com/college/pw-institute-of-innovation-lucknow-241546",
-  "https://www.shiksha.com/college/ali-yavar-jung-national-institute-of-speech-and-hearing-disabilities-bandra-west-mumbai-26273",
-  "https://www.shiksha.com/college/king-nandhivarman-college-of-arts-and-science-tiruvannamalai-72661",
-  "https://www.shiksha.com/college/vasantrao-kale-homoeopathic-medical-college-and-hospital-latur-87029",
-  "https://www.shiksha.com/college/netai-charan-chakravarty-homoeopathic-medical-college-and-hospital-howrah-87051",
-  "https://www.shiksha.com/college/shanmuga-college-of-nursing-shanmuga-institute-of-post-medical-sciences-salem-91067",
-  "https://www.shiksha.com/college/p-d-m-dental-college-bahadurgarh-195351",
-  "https://www.shiksha.com/college/rajgad-dnyanpeeth-s-college-of-pharmacy-pune-147919",
-  "https://www.shiksha.com/college/muzaffarpur-homeopathic-medical-college-and-hospital-182253",
-  "https://www.shiksha.com/college/prem-physiotherapy-and-rehabilitation-college-panipat-195347",
+  "https://www.shiksha.com/college/sri-aurobindo-institute-of-speech-and-hearing-indore-125963",
+  "https://www.shiksha.com/college/calcutta-institute-of-nursing-and-paramedical-science-v-i-p-road-kolkata-61903",
+  "https://www.shiksha.com/university/sai-tirupati-university-udaipur-65077",
+  "https://www.shiksha.com/college/a-l-n-rao-memorial-ayurvedic-medical-college-and-pg-centre-chikkamagaluru-87289",
+  "https://www.shiksha.com/college/azad-college-of-pharmacy-hyderabad-149451",
+  "https://www.shiksha.com/college/venkata-padmavathi-college-of-physiotherapy-tirupati-202115",
+  "https://www.shiksha.com/college/h-g-e-a-college-of-pharmacy-bokaro-steel-city-207599",
 ]
 
 
@@ -9243,7 +9230,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1601
+    c_count = 1881
 
     try:
         for base_url in BASE_URL:
