@@ -15,13 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/sri-aurobindo-institute-of-speech-and-hearing-indore-125963",
-  "https://www.shiksha.com/college/calcutta-institute-of-nursing-and-paramedical-science-v-i-p-road-kolkata-61903",
-  "https://www.shiksha.com/university/sai-tirupati-university-udaipur-65077",
-  "https://www.shiksha.com/college/a-l-n-rao-memorial-ayurvedic-medical-college-and-pg-centre-chikkamagaluru-87289",
-  "https://www.shiksha.com/college/azad-college-of-pharmacy-hyderabad-149451",
-  "https://www.shiksha.com/college/venkata-padmavathi-college-of-physiotherapy-tirupati-202115",
-  "https://www.shiksha.com/college/h-g-e-a-college-of-pharmacy-bokaro-steel-city-207599",
+  "https://www.shiksha.com/college/saraswati-institute-of-pharmacy-hingoli-88565",
+  "https://www.shiksha.com/college/dr-babasaheb-ambedkar-institute-of-d-pharmacy-wardha-97855",
+  "https://www.shiksha.com/college/sanjay-gandhi-accidental-hospital-and-research-center-bangalore-185767",
+  "https://www.shiksha.com/college/zakir-husain-delhi-college-university-of-delhi-ajmeri-gate-23927",
+  "https://www.shiksha.com/college/rajiv-gandhi-college-of-pharmacy-rajahmundry-61039",
+  "https://www.shiksha.com/university/parul-university-vadodara-30821",
+  "https://www.shiksha.com/college/vasundhara-raje-homoeopathic-medical-college-and-hospital-gwalior-87221",
+  "https://www.shiksha.com/college/shiv-shakti-ayurvadic-medical-college-and-hospital-mansa-87389",
+  "https://www.shiksha.com/college/milestones-jayanagar-bangalore-67369",
+  "https://www.shiksha.com/college/institute-of-nephro-urology-bangalore-69837",
+  "https://www.shiksha.com/college/sharadchandraji-pawar-homoeopathic-medical-college-and-hospital-ahmednagar-70149",
+  "https://www.shiksha.com/college/charak-institute-of-pharmacy-mandleshwar-88059",
+  "https://www.shiksha.com/college/icri-sam-global-university-bhopal-145691",
+  "https://www.shiksha.com/college/government-medical-college-nagarkurnool-telangana-other-207499",
+  "https://www.shiksha.com/college/mhf-s-homoeopathic-medical-college-hospital-ahmednagar-41202",
+  "https://www.shiksha.com/college/kalka-group-of-institutions-meerut-67485",
+  "https://www.shiksha.com/college/indukaka-ipcowala-college-of-pharmacy-cvm-university-anand-88095",
+  "https://www.shiksha.com/college/sigma-college-of-nursing-mysore-208445",
+  "https://www.shiksha.com/college/lotus-business-school-punawale-pune-26632",
+  "https://www.shiksha.com/college/shivdan-singh-institute-of-technology-and-management-aligarh-34609",
 ]
 
 
@@ -9230,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 1881
+    c_count = 2081
 
     try:
         for base_url in BASE_URL:
