@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/saraswati-institute-of-pharmacy-hingoli-88565",
-  "https://www.shiksha.com/college/dr-babasaheb-ambedkar-institute-of-d-pharmacy-wardha-97855",
-  "https://www.shiksha.com/college/sanjay-gandhi-accidental-hospital-and-research-center-bangalore-185767",
-  "https://www.shiksha.com/college/zakir-husain-delhi-college-university-of-delhi-ajmeri-gate-23927",
-  "https://www.shiksha.com/college/rajiv-gandhi-college-of-pharmacy-rajahmundry-61039",
-  "https://www.shiksha.com/university/parul-university-vadodara-30821",
-  "https://www.shiksha.com/college/vasundhara-raje-homoeopathic-medical-college-and-hospital-gwalior-87221",
-  "https://www.shiksha.com/college/shiv-shakti-ayurvadic-medical-college-and-hospital-mansa-87389",
-  "https://www.shiksha.com/college/milestones-jayanagar-bangalore-67369",
-  "https://www.shiksha.com/college/institute-of-nephro-urology-bangalore-69837",
-  "https://www.shiksha.com/college/sharadchandraji-pawar-homoeopathic-medical-college-and-hospital-ahmednagar-70149",
-  "https://www.shiksha.com/college/charak-institute-of-pharmacy-mandleshwar-88059",
-  "https://www.shiksha.com/college/icri-sam-global-university-bhopal-145691",
-  "https://www.shiksha.com/college/government-medical-college-nagarkurnool-telangana-other-207499",
-  "https://www.shiksha.com/college/mhf-s-homoeopathic-medical-college-hospital-ahmednagar-41202",
-  "https://www.shiksha.com/college/kalka-group-of-institutions-meerut-67485",
-  "https://www.shiksha.com/college/indukaka-ipcowala-college-of-pharmacy-cvm-university-anand-88095",
-  "https://www.shiksha.com/college/sigma-college-of-nursing-mysore-208445",
-  "https://www.shiksha.com/college/lotus-business-school-punawale-pune-26632",
-  "https://www.shiksha.com/college/shivdan-singh-institute-of-technology-and-management-aligarh-34609",
+  "https://www.shiksha.com/college/icri-rai-university-bangalore-202965",
+  "https://www.shiksha.com/college/east-west-institute-of-medical-sciences-research-west-bengal-other-231698",
+  "https://www.shiksha.com/college/jehangir-centre-for-learning-pune-station-pune-51964",
+  "https://www.shiksha.com/college/sou-devibai-narayandas-chhabada-rural-education-society-satara-56877",
+  "https://www.shiksha.com/college/azad-institute-of-pharmacy-research-lucknow-59351",
+  "https://www.shiksha.com/college/sant-gajanan-maharaj-rural-polytechnic-kolhapur-61233",
+  "https://www.shiksha.com/university/bhagwant-global-university-uttarakhand-other-65589",
+  "https://www.shiksha.com/college/princeton-college-of-pharmacy-ghatkesar-hyderabad-70241",
+  "https://www.shiksha.com/college/svss-latur-college-of-pharmacy-88461",
+  "https://www.shiksha.com/college/rahman-institute-of-pharmaceutical-sciences-and-research-assam-other-146385",
+  "https://www.shiksha.com/college/mangaldeep-institute-of-pharmacy-aurangabad-150669",
+  "https://www.shiksha.com/college/puran-murti-college-of-pharmacy-sonepat-156887",
+  "https://www.shiksha.com/college/science-college-nanded-189467",
+  "https://www.shiksha.com/college/n-r-i-college-of-pharmacy-andhra-pradesh-other-61083",
+  "https://www.shiksha.com/college/sidramappa-danigond-memorial-trust-s-padma-ayurvedic-hospital-research-centre-terdal-bagalkot-68277",
+  "https://www.shiksha.com/college/the-pharmaceutical-college-orissa-other-87939",
+  "https://www.shiksha.com/college/rajaram-and-tarabai-bandekar-college-of-pharmacy-ponda-88017",
+  "https://www.shiksha.com/college/kk-wagh-institute-of-pharmacy-nashik-89091",
+  "https://www.shiksha.com/college/odisha-institute-of-engineering-and-technology-orissa-other-99705",
+  "https://www.shiksha.com/college/talla-padmavathi-college-of-pharmacy-warangal-148509",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2081
+    c_count = 2361
 
     try:
         for base_url in BASE_URL:
