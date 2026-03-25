@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/icri-rai-university-bangalore-202965",
-  "https://www.shiksha.com/college/east-west-institute-of-medical-sciences-research-west-bengal-other-231698",
-  "https://www.shiksha.com/college/jehangir-centre-for-learning-pune-station-pune-51964",
-  "https://www.shiksha.com/college/sou-devibai-narayandas-chhabada-rural-education-society-satara-56877",
-  "https://www.shiksha.com/college/azad-institute-of-pharmacy-research-lucknow-59351",
-  "https://www.shiksha.com/college/sant-gajanan-maharaj-rural-polytechnic-kolhapur-61233",
-  "https://www.shiksha.com/university/bhagwant-global-university-uttarakhand-other-65589",
-  "https://www.shiksha.com/college/princeton-college-of-pharmacy-ghatkesar-hyderabad-70241",
-  "https://www.shiksha.com/college/svss-latur-college-of-pharmacy-88461",
-  "https://www.shiksha.com/college/rahman-institute-of-pharmaceutical-sciences-and-research-assam-other-146385",
-  "https://www.shiksha.com/college/mangaldeep-institute-of-pharmacy-aurangabad-150669",
-  "https://www.shiksha.com/college/puran-murti-college-of-pharmacy-sonepat-156887",
-  "https://www.shiksha.com/college/science-college-nanded-189467",
-  "https://www.shiksha.com/college/n-r-i-college-of-pharmacy-andhra-pradesh-other-61083",
-  "https://www.shiksha.com/college/sidramappa-danigond-memorial-trust-s-padma-ayurvedic-hospital-research-centre-terdal-bagalkot-68277",
-  "https://www.shiksha.com/college/the-pharmaceutical-college-orissa-other-87939",
-  "https://www.shiksha.com/college/rajaram-and-tarabai-bandekar-college-of-pharmacy-ponda-88017",
-  "https://www.shiksha.com/college/kk-wagh-institute-of-pharmacy-nashik-89091",
-  "https://www.shiksha.com/college/odisha-institute-of-engineering-and-technology-orissa-other-99705",
-  "https://www.shiksha.com/college/talla-padmavathi-college-of-pharmacy-warangal-148509",
+  "https://www.shiksha.com/college/kits-college-of-pharmacy-for-women-east-godavari-146171",
+  "https://www.shiksha.com/college/seiko-college-of-pharmacy-lucknow-148673",
+  "https://www.shiksha.com/college/sanskriti-college-of-higher-education-and-studies-kanpur-148773",
+  "https://www.shiksha.com/college/b-r-college-of-paramedical-sciences-and-nursing-jammu-151845",
+  "https://www.shiksha.com/college/rajan-babu-institute-of-pulmonary-medicine-and-tuberculosis-delhi-180675",
+  "https://www.shiksha.com/college/rbs-college-of-pharmacy-mathura-181911",
+  "https://www.shiksha.com/college/vikas-institute-of-medical-sciences-college-of-physiotherapy-guntur-188881",
+  "https://www.shiksha.com/college/yuvraj-pratap-singh-memorial-homeopathy-medical-college-alwar-192871",
+  "https://www.shiksha.com/college/j-d-s-r-institute-of-pharmacy-shahjahanpur-65479",
+  "https://www.shiksha.com/college/harsha-institute-of-pharmacy-lucknow-65605",
+  "https://www.shiksha.com/college/innocent-hearts-group-of-institutions-jalandhar-66727",
+  "https://www.shiksha.com/college/m-e-s-ayurved-college-ratnagiri-68159",
+  "https://www.shiksha.com/college/grameen-ayurvedic-medical-college-hospital-and-research-center-bagalkot-87327",
+  "https://www.shiksha.com/college/kishore-bharati-bhagini-nivedita-college-kolkata-113583",
+  "https://www.shiksha.com/college/anuska-group-of-education-bhubaneswar-146089",
+  "https://www.shiksha.com/college/sam-college-of-pharmacy-raisen-147211",
+  "https://www.shiksha.com/college/niit-college-of-pharmacy-uttar-pradesh-other-149157",
+  "https://www.shiksha.com/college/raj-kali-devi-pharmacy-college-raebareli-149159",
+  "https://www.shiksha.com/college/s-j-institute-of-pharmacy-uttar-pradesh-other-149305",
+  "https://www.shiksha.com/college/chaudhary-institute-of-pharmaceutical-science-uttar-pradesh-other-155925",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 2361
+    c_count = 3120
 
     try:
         for base_url in BASE_URL:
