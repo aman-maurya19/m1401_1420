@@ -15,26 +15,26 @@ from selenium.common.exceptions import TimeoutException
 
 # ---------------- URLS ----------------
 BASE_URL = [
-  "https://www.shiksha.com/college/kits-college-of-pharmacy-for-women-east-godavari-146171",
-  "https://www.shiksha.com/college/seiko-college-of-pharmacy-lucknow-148673",
-  "https://www.shiksha.com/college/sanskriti-college-of-higher-education-and-studies-kanpur-148773",
-  "https://www.shiksha.com/college/b-r-college-of-paramedical-sciences-and-nursing-jammu-151845",
-  "https://www.shiksha.com/college/rajan-babu-institute-of-pulmonary-medicine-and-tuberculosis-delhi-180675",
-  "https://www.shiksha.com/college/rbs-college-of-pharmacy-mathura-181911",
-  "https://www.shiksha.com/college/vikas-institute-of-medical-sciences-college-of-physiotherapy-guntur-188881",
-  "https://www.shiksha.com/college/yuvraj-pratap-singh-memorial-homeopathy-medical-college-alwar-192871",
-  "https://www.shiksha.com/college/j-d-s-r-institute-of-pharmacy-shahjahanpur-65479",
-  "https://www.shiksha.com/college/harsha-institute-of-pharmacy-lucknow-65605",
-  "https://www.shiksha.com/college/innocent-hearts-group-of-institutions-jalandhar-66727",
-  "https://www.shiksha.com/college/m-e-s-ayurved-college-ratnagiri-68159",
-  "https://www.shiksha.com/college/grameen-ayurvedic-medical-college-hospital-and-research-center-bagalkot-87327",
-  "https://www.shiksha.com/college/kishore-bharati-bhagini-nivedita-college-kolkata-113583",
-  "https://www.shiksha.com/college/anuska-group-of-education-bhubaneswar-146089",
-  "https://www.shiksha.com/college/sam-college-of-pharmacy-raisen-147211",
-  "https://www.shiksha.com/college/niit-college-of-pharmacy-uttar-pradesh-other-149157",
-  "https://www.shiksha.com/college/raj-kali-devi-pharmacy-college-raebareli-149159",
-  "https://www.shiksha.com/college/s-j-institute-of-pharmacy-uttar-pradesh-other-149305",
-  "https://www.shiksha.com/college/chaudhary-institute-of-pharmaceutical-science-uttar-pradesh-other-155925",
+  "https://www.shiksha.com/college/malineni-group-of-colleges-prakasam-20604",
+  "https://www.shiksha.com/college/f-i-pharmacy-college-lucknow-59767",
+  "https://www.shiksha.com/college/intellectual-fitness-and-sports-academy-vikhroli-east-mumbai-64979",
+  "https://www.shiksha.com/college/sree-abirami-college-of-physiotherapy-coimbatore-224993",
+  "https://www.shiksha.com/college/aims-college-of-pharmacy-vadvali-thane-229213",
+  "https://www.shiksha.com/college/oriental-college-of-pharmacy-jabalpur-230104",
+  "https://www.shiksha.com/college/gem-hospital-chennai-240694",
+  "https://www.shiksha.com/college/kauvery-hospital-chennai-240720",
+  "https://www.shiksha.com/college/dr-ramesh-cardiac-and-multispeciality-hospital-krishna-240772",
+  "https://www.shiksha.com/college/aurous-institute-of-management-aim-lucknow-32762",
+  "https://www.shiksha.com/college/rahul-sankrityayan-college-of-pharmacy-azamgarh-59637",
+  "https://www.shiksha.com/college/aarogya-homoeopathic-medical-college-and-hospital-jaipur-87507",
+  "https://www.shiksha.com/college/kakasaheb-mhaske-college-of-pharmacy-ahmednagar-88831",
+  "https://www.shiksha.com/college/institute-of-pharmacy-and-research-amravati-88995",
+  "https://www.shiksha.com/college/annasaheb-dange-college-of-d-pharmacy-sangli-97409",
+  "https://www.shiksha.com/college/government-college-for-girls-gulha-cheeka-kaithal-111901",
+  "https://www.shiksha.com/college/j-e-s-s-college-of-pharmacy-maharashtra-other-147653",
+  "https://www.shiksha.com/college/malout-institute-of-pharmacy-muktsar-148121",
+  "https://www.shiksha.com/college/government-medical-college-yadadri-telangana-other-231182",
+  "https://www.shiksha.com/college/asian-college-of-pharmacy-pune-236624",
 ]
 
 
@@ -9243,7 +9243,7 @@ def parse_faq_scholarships_section(driver, URLS):
 def scrape_mba_colleges():
     driver = create_driver()
     all_data = []
-    c_count = 3120
+    c_count = 3301
 
     try:
         for base_url in BASE_URL:
